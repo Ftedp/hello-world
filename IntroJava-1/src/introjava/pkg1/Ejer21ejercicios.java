@@ -53,8 +53,9 @@ public class Ejer21ejercicios {
                 for (int i = 0; i < 3; i++) {
                     for (int j = 0; j < 3; j++){
                         if (matrizB [i][j] == matrizA[i+a][j+b]){
-                            contador+=1;
+                            contador+=1;            
                         }
+                        
                     }
                 }
                 System.out.println("Coincidencias:"+contador);
